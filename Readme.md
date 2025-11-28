@@ -63,4 +63,28 @@ flowchart TD
 
     ST --> SUM[SummaryAgent<br/>final_plan]
 
-    SUM --> OUT[Final Summary]
+    SUM --> OUT[Final Human Summary]
+```
+
+## 4. Value Proposition
+
+PantryPilot turns a messy, time-consuming weekly task into a simple conversational experience. Instead of manually checking your pantry, searching for recipes, creating a shopping list, and choosing where to shop, PantryPilot automates everything using specialized agents and real-world data. This saves time, reduces food waste, supports healthier eating, and adapts to your lifestyle - including weather and transportation constraints. It’s a practical, everyday example of how agentic AI can make life easier.
+
+
+## 5. Possible Future Improvements
+
+Nutrition info (calories, macros) with external APIs
+
+Cost-aware shopping (optimize for budget)
+
+Dietary filters (vegan, keto, high-protein, etc.)
+
+Long-term memory: learn user preferences across sessions
+
+Multi-week meal planning & leftovers reuse
+
+## 6. Conclusion
+
+PantryPilot shows how multiple specialized agents can work together to solve a real-world problem end-to-end. By combining LLM reasoning, Google Search tools, and structured orchestration, it delivers a fast, helpful, and personalized meal-planning experience. It's a clean demonstration of how agent-based AI can turn everyday challenges into effortless workflows.
+
+
